@@ -1,0 +1,602 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6a9e47;
+    padding: 10px 20px;
+    color: white;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+.nav-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6a9e47;
+    padding: 10px;
+    color: white;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.location-btn, .login-btn {
+    background-color: white;
+    color: #6a9e47;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+main {
+    padding: 20px;
+}
+.product-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 200px;
+}
+.discount {
+    background: green;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    position: absolute;
+    margin-top: -10px;
+    border-radius: 5px;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+.product-card select, .product-card button {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.product-card button {
+    background-color: #6a9e47;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.product-card button:hover {
+    background-color: #567a38;
+}
+
+.quantity-select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.add-btn {
+    background: red;
+    color: white;
+    padding: 8px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.best-sellers {
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.best-sellers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.top-offers, .fruits-vegetables {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+
+}
+
+.top-offers h2, .fruits-vegetables h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.offers-container, .fruits-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.offer-card {
+    width: 200px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.offer-header {
+    background: red;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.offer-card p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.fruit-card {
+    width: 200px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.fruit-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.fruit-card p {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.fruit-card span {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.daily-staples, .beverages, .snacks-store {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.daily-staples h2, .beverages h2, .snacks-store h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.staples-container, .beverages-container, .snacks-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.staple-card, .bev-card, .snack-card {
+    width: 180px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.staple-card img, .bev-card img, .snack-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.staple-card p, .bev-card p, .snack-card p {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.bev-card span, .snack-card span {
+    color: red;
+    font-weight: bold;
+}
+
+.cleaning-household, .beauty-hygiene, .home-kitchen {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.cleaning-household h2, .beauty-hygiene h2, .home-kitchen h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cleaning-container, .beauty-container, .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.cleaning-card, .beauty-card, .home-card {
+    width: 180px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cleaning-card img, .beauty-card img, .home-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cleaning-card p, .beauty-card p, .home-card p {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.cleaning-card span, .beauty-card span, .home-card span {
+    color: red;
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5e8f4;
+    padding: 40px;
+    border-radius: 15px;
+    position: relative;
+    width: 90%;
+    margin: auto;
+   
+}
+
+.banner-text {
+    max-width: 40%;
+    text-align: left;
+}
+
+.banner h2 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.discount {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 252, 250);
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.shop-now {
+    background: red;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.banner-image img {
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.prev, .next {
+    background: white;
+    border: none;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.prev {
+    left: 15px;
+}
+
+.next {
+    right: 15px;
+}
+
+
+.about-section {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.footer {
+    background: #111;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-logo img {
+    width: 120px;
+}
+
+
+.footer {
+    background: #111;
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 130px;
+    margin: 5px 0;
+}
+
+.app-links img {
+    width: 120px;
+    margin: 5px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+hr {
+    border: 0.5px solid #444;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.cities {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cities h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cities p {
+    font-size: 14px;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.footer-bottom {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.cities-list {
+    font-size: 14px;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+hr {
+    border: 0.5px solid #444;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-links h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 15px;
+    color: #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

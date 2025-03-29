@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigBasket Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">BigBasket</div>
+            <input type="text" placeholder="Search for Products..." class="search-bar">
+            <button class="location-btn">Select Location</button>
+            <a href="signup.html">
+                <button class="login-btn">Login/Sign Up</button>
+            </a>
+            
+        </header>
+        <nav class="nav-links">
+            <a href="#">Shop by Category</a>
+            <a href="#">Exotic Fruits & Vegetables</a>
+            <a href="#">Tea</a>
+            <a href="#">Ghee</a>
+            <a href="#">Fresh Vegetables</a>
+        </nav>
+        <main>
+            <h2 style="text-align: center;">My Smart Basket</h2>
+            <div class="product-container">
+                <div class="product-card">
+                    <span class="discount">51% OFF</span>
+                    <img src="https://www.bbassets.com/media/uploads/p/m/10000025_32-fresho-banana-robusta.jpg?tr=w-154,q-80" alt="Banana">
+                    <p>Banana - Robusta</p>
+                    <p>₹52 <del>₹105.48</del></p>
+                    <select>
+                        <option>1 kg</option>
+                        <option>500 gm</option>
+                        <option>5 kg</option>
+                    </select>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <span class="discount">20% OFF</span>
+                    <img src="https://www.bbassets.com/media/uploads/p/m/10000067_26-fresho-capsicum-green.jpg?tr=w-154,q-80" alt="Capsicum">
+                    <p>Capsicum - Green (Loose)</p>
+                    <p>₹71.23 <del>₹89.04</del></p>
+                    <select>
+                        <option>1 kg</option>
+                        <option>500 gm</option>
+                        <option>5 kg</option>
+                    </select>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <span class="discount">20% OFF</span>
+                    <img src="https://www.bbassets.com/media/uploads/p/m/10000074_20-fresho-cauliflower.jpg?tr=w-154,q-80" alt="Cauliflower">
+                    <p>Cauliflower</p>
+                    <p>₹29.59 <del>₹36.99</del></p>
+                    <select>
+                        <option>1 kg</option>
+                        <option>500 gm</option>
+                        <option>5 kg</option>
+                    </select>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <span class="discount">50% OFF</span>
+                    <img src="https://www.bbassets.com/media/uploads/p/m/10000333_15-fresho-chilli-green-long-medium.jpg?tr=w-154,q-80" alt="Chilli">
+                    <p>Chilli - Green Long</p>
+                    <p>₹42 <del>₹83.56</del></p>
+                    <select>
+                        <option>1 kg</option>
+                        <option>500 gm</option>
+                        <option>5 kg</option>
+                    </select>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+               
+        <section class="best-sellers">
+            <h2>Best Sellers</h2>
+            <div class="best-sellers-container">
+                <div class="product-card">
+                    <span class="discount">28% OFF</span>
+                    <img src="https://www.bbassets.com/media/uploads/p/m/40125231_4-bodyguard-premium-baby-wet-wipes-with-aloe-vera-paraben-free.jpg?tr=w-154,q-80" alt="Baby Wipes">
+                    <p>Baby Wipes With Moisture Lock</p>
+                    <p>₹859.68 <del>₹1194</del></p>
+                    <button class="add-btn">Add</button>
+                </div>
+                <div class="product-card">
+                    <span class="discount">₹30 OFF</span>
+                    <img src="https://www.bbassets.com/media/uploads/p/m/40202329_1-dabur-baby-wipes-with-moisture-lock-cap.jpg?tr=w-154,q-80" alt="Safety Wipes">
+                    <p>Wipeout Baby Safety Wipes</p>
+                    <p>₹269.1 <del>₹299</del></p>
+                    <button class="add-btn">Add</button>
+                </div>
+                <div class="product-card">
+                    <span class="discount">28% OFF</span>
+                    <img src="https://www.bbassets.com/media/uploads/p/m/40202365_2-bodyguard-premium-paraben-free-baby-wet-wipes-with-aloe-vera.jpg?tr=w-154,q-80" alt="Baby Wipes">
+                    <p>Baby Wipes With Moisture Lock</p>
+                    <p>₹859.68 <del>₹1194</del></p>
+                    <button class="add-btn">Add</button>
+                </div>
+                <div class="product-card">
+                    <span class="discount">₹30 OFF</span>
+                    <img src="https://www.bbassets.com/media/uploads/p/m/40200845_1-myglamm-wipeout-baby-safety-wipes.jpg?tr=w-154,q-80" alt="Safety Wipes">
+                    <p>Wipeout Baby Safety Wipes</p>
+                    <p>₹269.1 <del>₹299</del></p>
+                    <button class="add-btn">Add</button>
+                </div>
+            </div>
+        </section>
+        <div class="top-offers">
+            <h2>Top Offers</h2>
+            <div class="offers-container">
+                <div class="offer-card">
+                    <div class="offer-header">DEALS OF <br> THE WEEK</div>
+                    <p>View offers ></p>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-header">BIG PACK <br> BIGGER DISCOUNTS</div>
+                    <p>View offers ></p>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-header">COMBOS <br> YOU CAN'T MISS</div>
+                    <p>View offers ></p>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-header">THE ₹30 CORNER</div>
+                    <p>View offers ></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="fruits-vegetables">
+            <h2>Fruits and Vegetables</h2>
+            <div class="fruits-container">
+                <div class="fruit-card">
+                    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_fresh-vegetables_480_250923.jpg?tr=w-480,q-80" alt="Fresh Vegetables">
+                    <p>Fresh Vegetables</p>
+                    <span>MIN 27% OFF</span>
+                </div>
+                <div class="fruit-card">
+                    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_fresh-fruits_480_250923.jpg?tr=w-480,q-80" alt="Fresh Fruits">
+                    <p>Fresh Fruits</p>
+                    <span>MIN 27% OFF</span>
+                </div>
+                <div class="fruit-card">
+                    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_cuts-&-exotics_480_250923.jpg?tr=w-480,q-80" alt="Cuts & Exotics">
+                    <p>Cuts & Exotics</p>
+                    <span>MIN 27% OFF</span>
+                </div>
+                <div class="fruit-card">
+                    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_herbs-&-seasoning_480_250923.jpg?tr=w-480,q-80" alt="Herbs & Seasonings">
+                    <p>Herbs & Seasonings</p>
+                    <span>MIN 27% OFF</span>
+                </div>
+            </div>
+        </div>
+        <div class="daily-staples">
+            <h2>Your Daily Staples</h2>
+            <div class="staples-container">
+                <div class="staple-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_atta-flour-staplesStorefront_m_480_250323_01.jpg?tr=w-480,q-80" alt="Atta & Flour"><p>Atta & Flour</p></div>
+                <div class="staple-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_rice-staplesStorefront_m_480_250323_02.jpg?tr=w-480,q-80" alt="Rice & Rice Products"><p>Rice & Rice Products</p></div>
+                <div class="staple-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_dals-pulses-staplesStorefront_m_480_250323_03.jpg?tr=w-480,q-80" alt="Dals & Pulses"><p>Dals & Pulses</p></div>
+                <div class="staple-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_cooking-oils-staplesStorefront_m_480_250323_04.jpg?tr=w-480,q-80" alt="Cooking Oils & Ghee"><p>Cooking Oils & Ghee</p></div>
+                <div class="staple-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_dry-fruits-staplesStorefront_m_480_250323_05.jpg?tr=w-480,q-80" alt="Dry Fruits"><p>Dry Fruits</p></div>
+                <div class="staple-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_salt-staplesStorefront_m_480_250323_06.jpg?tr=w-480,q-80" alt="Salt, Sugar & Jaggery"><p>Salt, Sugar & Jaggery</p></div>
+            </div>
+        </div>
+        
+        <div class="beverages">
+            <h2>Beverages</h2>
+            <div class="beverages-container">
+                <div class="bev-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_health-drinks-&-supplements_480_250923.jpg?tr=w-480,q-80" alt="Health Drinks"><p>Health Drinks & Supplements</p><span>UP TO 20% OFF</span></div>
+                <div class="bev-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_tea-&-coffee_480_250923.jpg?tr=w-480,q-80" alt="Tea & Coffee"><p>Tea & Coffee</p><span>UP TO 40% OFF</span></div>
+                <div class="bev-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_flavoured-&-soya-milk_480_250923.jpg?tr=w-480,q-80" alt="Flavoured & Soya Milk"><p>Flavoured & Soya Milk</p><span>UP TO 30% OFF</span></div>
+                <div class="bev-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_juices_480_250923.jpg?tr=w-480,q-80" alt="Juices"><p>Juices</p><span>UP TO 30% OFF</span></div>
+                <div class="bev-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_energy-drinks_480_250923.jpg?tr=w-480,q-80" alt="Energy Drinks"><p>Energy Drinks</p><span>UP TO 15% OFF</span></div>
+                <div class="bev-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_soft-drinks-&-more_480_250923.jpg?tr=w-480,q-80" alt="Soft Drinks"><p>Soft Drinks</p><span>UP TO 15% OFF</span></div>
+            </div>
+        </div>
+        
+        <div class="snacks-store">
+            <h2>Snacks Store</h2>
+            <div class="snacks-container">
+                <div class="snack-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_biscuits-&-namkeens_480_250923.jpg?tr=w-480,q-80" alt="Chai Time Snack"><p>Chai Time Snack</p><span>UP TO 50% OFF</span></div>
+                <div class="snack-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_breakfast-cereals_480_250923.jpg?tr=w-480,q-80" alt="Morning Starters"><p>Morning Starters</p><span>UP TO 50% OFF</span></div>
+                <div class="snack-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_pasta-sauces-&-more_480_270723.jpg?tr=w-480,q-80" alt="Pasta, Sauces & More"><p>Pasta, Sauces & More</p><span>UP TO 40% OFF</span></div>
+                <div class="snack-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_sweet-cravings_480_250923.jpg?tr=w-480,q-80" alt="Sweet Cravings"><p>Sweet Cravings</p><span>UP TO 40% OFF</span></div>
+            </div>
+        </div>
+        
+        <div class="cleaning-household">
+            <h2>Cleaning & Household</h2>
+            <div class="cleaning-container">
+                <div class="cleaning-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_cleaners_480_250723.jpg?tr=w-480,q-80" alt="Cleaners & Disinfectants"><p>Cleaners & Disinfectants</p><span>UP TO 40% OFF</span></div>
+                <div class="cleaning-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_detergents-&-fabric-care_480_250723.jpg?tr=w-480,q-80" alt="Detergents & Fabric Care"><p>Detergents & Fabric Care</p><span>UP TO 50% OFF</span></div>
+                <div class="cleaning-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_paper-disposables-&-garbage-bags_480_250723.jpg?tr=w-480,q-80" alt="Disposables & Garbage Bags"><p>Disposables & Garbage Bags</p><span>UP TO 25% OFF</span></div>
+                <div class="cleaning-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_freshner_480_250723.jpg?tr=w-480,q-80" alt="Fresheners & Repellents"><p>Fresheners & Repellents</p><span>UP TO 40% OFF</span></div>
+            </div>
+        </div>
+        
+        <div class="beauty-hygiene">
+            <h2>Beauty and Hygiene</h2>
+            <div class="beauty-container">
+                <div class="beauty-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_-makeup_480_250923.jpg?tr=w-480,q-80" alt="Makeup Show Stoppers"><p>Makeup Show Stoppers</p><span>UP TO 60% OFF</span></div>
+                <div class="beauty-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_moisturiser_480_250923.jpg?tr=w-480,q-80" alt="Moisturisers & Serums"><p>Moisturisers & Serums</p><span>UP TO 40% OFF</span></div>
+                <div class="beauty-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_perfumes_480_250923.jpg?tr=w-480,q-80" alt="Scentsational Perfumes"><p>Scentsational Perfumes</p><span>UP TO 50% OFF</span></div>
+                <div class="beauty-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_mens-shaving_480_250923.jpg?tr=w-480,q-80" alt="Shaving Care"><p>Shaving Care</p><span>UP TO 50% OFF</span></div>
+                <div class="beauty-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_minimum-30-off_480_250923.jpg?tr=w-480,q-80" alt="Big Pack Bigger Saving"><p>Big Pack Bigger Saving</p><span>UP TO 50% OFF</span></div>
+            </div>
+        </div>
+        
+        <div class="home-kitchen">
+            <h2>Home and Kitchen</h2>
+            <div class="home-container">
+                <div class="home-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GMunder-99_m_250723_01.jpg?tr=w-480,q-80" alt="Under ₹99"><p>Under ₹99</p></div>
+                <div class="home-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GM100-199_m_250723_02.jpg?tr=w-480,q-80" alt="₹100 - ₹199"><p>₹100 - ₹199</p></div>
+                <div class="home-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GMStorefront-pressure-cooker_m_250723_03.jpg?tr=w-480,q-80" alt="Pressure Cookers"><p>Pressure Cookers</p><span>MIN 15% OFF</span></div>
+                <div class="home-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GMStorefront-stationery-store_m_250723_04.jpg?tr=w-480,q-80" alt="Stationery Store"><p>Stationery Store</p><span>STARTING AT ₹19</span></div>
+                <div class="home-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GM-storage-container_m_250723_05.jpg?tr=w-480,q-80" alt="Storage Containers"><p>Storage Containers</p><span>STARTING AT ₹79</span></div>
+                <div class="home-card"><img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GM-cleaning-needs_m_250723_06.jpg?tr=w-480,q-80" alt="Cleaning Essentials"><p>Cleaning Essentials</p><span>STARTING AT ₹99</span></div>
+            </div>
+        </div>
+        
+        <div class="banner">
+            <button class="prev">&#10094;</button>
+            
+            <div class="banner-text">
+                <h2>Tea Time Bakes</h2>
+                <p>Bakery, Cakes & more.</p>
+                <div class="discount">UP TO &nbsp;<strong>50% OFF</strong></div>
+                <br> 
+                <br>
+                <button class="shop-now">SHOP NOW</button>
+            </div>
+        
+            <div class="banner-image">
+                <img src="https://www.bigbasket.com/media/uploads/banner_images/hp_m_petstore_250923_400.jpg?tr=w-1130,q-80" alt="Tea Time Bakes">
+            </div>
+        
+            <button class="next">&#10095;</button>
+        </div>
+        
+        <section class="about-section">
+            <h3>bigbasket – online grocery store</h3>
+            <p>Did you ever imagine that the freshest of fruits and vegetables, top-quality pulses and food grains, dairy products, and 
+                hundreds of branded items could be handpicked and delivered to your home, all at the click of a button? In today’s 
+                fast-paced world, bigbasket.com, India’s pioneering online grocery store, continues to bring a staggering array of over 
+                40,000 products from more than 1,000 brands to the doorsteps of over 10 million satisfied customers.</p>
+            
+            <p>We now serve 300+ cities and towns across India and ensure swift delivery times, guaranteeing that all your groceries, 
+                snacks and branded foods reach you on time.</p>
+        
+            <p>Instant delivery from bbnnow: In response to the ever-increasing demand for convenience, bbnnow by bigbasket offers 
+                lightning-fast grocery delivery, ensuring that your essentials are at your doorstep within 15-30 minutes.</p>
+        </section>
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bigbasket</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Bigbasket</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Become A bigbasket Rider</a></li>
+                        <li><a href="#">In News</a></li>
+                        <li><a href="#">Green bigbasket</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Careers At bigbasket</a></li>
+                        <li><a href="#">bb Instant</a></li>
+                        <li><a href="#">bb Daily</a></li>
+                        <li><a href="#">bb Blog</a></li>
+                        <li><a href="#">bbnow</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-section">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">bb Wallet FAQs</a></li>
+                        <li><a href="#">bb Wallet T&Cs</a></li>
+                        <li><a href="#">Vendor Connect</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-logo">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAL4AygMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYDBAcCAf/EAD8QAAEDAwMBBQUEBwcFAAAAAAEAAgMEBREGEiExBxMUQVEWIjJhcSNCgZIVNFRyc6GxNlJTkbLC8CQzQ4Ki/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAEDBAUCBv/EADARAQACAgADBQYFBQAAAAAAAAABAgMRBBIhBTFRgfAiQWFxscETFKHR8RUyM1Lh/9oADAMBAAIRAxEAPwDuKIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAi8vkYw4e9rfqcLz38P+LH+YKNwMiLH38P+LH+YJ38R6Ss/ME5o8RkREUgiIgIiICIiAiIgIiICIiAiIgIiICIiAvMrtkb3j7rSV6WOo/V5f3D/AEUT3DmF/vD6JrKmWMzvmk2nL8Y4J9D6L3DViW2Nre7xmHvdmflnGVEay/UaX+N/tKwMv1FT2iCid3j5DThjtgHukjHmRlfKRi58cWiNzM9XVr2dObgceTDTd5md/Lr5JTTV2F8tEVw8P3HeOc3u9+7GCR1wPRSmB6KmWO5w6esNPSU9LX3NzZH58NT+83JLveGTjz5GRwrBYr9Q3yKR1G57ZIjiWGVu18Z+YUZ+HmtrWpHs7cjLivivNbxqYXmx10kdmqpZMyClDnNBPUBucZWLRmq/afxf/ReF8OGf+Xfu3bvkMfD/ADWG1f2fu38J/wDoKpPZ7qK36cpbpPcHPzJ3IjjjGXPI35x5eY5Pqu5wuWYxY9z01Lr8DwccRweW0V3eJrrznq7CqnXa1ZSatZp/wW5zpY4++7/GN4B+HHz9V8sOv7Tea1lIGT0sshxEZg3a8+gIJwfqtyq1fb6XUTbHJDVGqc9jA9rG7MuAI53Z8/RbJvFoia2V4+EyYslqZsM2nlmdb1r4/HSwoq1qPWtqsFT4WfvqipABfFAAdgPTcSQB9Oq16XtEsE9vkq3SzROjcGmBzMyEnOMYJB6Hz488KZy0idbVV7P4q1IyVxzqWe/6s/Q+qbHY/A99+lS8d/3u3utuPu4OevqFZlyPXN4o3630JeZZPD0Rilnc+bjYzDTzjKlndrluie2apsN9gtj3AMr5KTEbgejuvIPyyfkrInbLas1nU97oyKJuepLTbLB+naqsZ+jixr2Ss97vA74doHUnKqMnaoyKEVk+ktRxW0jd4t9KA0N/vHnGPnlHl0RFDnU9mGmxqE1rBazHvE2DzzjGOu7PGOueFUD2uUTWipl03qCO2nkVzqQd3t/vZzjH4oLHrjVXsnR0FR4Lxfi61lLt73Zs3Bx3dDn4eisi5b2vV9LddMaZrrfM2amqLvC6ORvmNkn/ADC6Ffb1brBbpLhd6plPTM4LncknyAA5J+QQSCKt3bXFktGnae+VsszKapGaeIwubLL9GOwfnk4GMHPIUBB2s29lTA28WO9WmmncGx1VZTbY/wATnp9MoJ7XOq/ZOkt8/gvF+LrGUu3ve72bg47uhz8PRWVcg7bb9SyG121kVQZKauiqnSiP7J7NjuGu83cjhdQsl2pL3boq+gMhhkyAJI3Mc0g4ILTyEG+iIgLHUfq8v7h/osix1H/Yk/cP9FFu6RxzWX6jS/xv9pW/ZKOnjtEA7pju+jDpCRncSFqasgmno6ZsEMkrhLkhjSfulacVVerTTNpTQmZoH2cgaXbc+Rx6fgvla1m+Gtaz1d3Hjvn7Nx4sV4i25nW9b/hgs3/R6mdTxklhfJHj5DJH9AsdeBQdplvfTgN8dAWzgfe4dz/8t/yWKmlq7NVMr6q03KrdJu2inh3EE9XO9PP+a2rDQXC6ajfqK7UrqRrI+7pKd/xAYIyR5dXdecu9AtU+zNrzPTlmPnLN23lpfiY5Z3qsRM+MulWr+z92/hP/ANBVW7I7ZS1VTW1tQxkktO1jYg4Z2bs5d9eMZ+qtdnY59hujWNc5zo3hoaMknZ0CpWl7bqvT8LrtRW172v8As5aSVuHvaOQ7b14OR6/IrbwvTFjnXiv7M9rgc2OLxW1ta3OvLzZ+1qgp6O40NZSNbDNUMf3hZxlzC3DuPP3uvyC16qZ1T2k26d4w6WSle76mNhWaW16i1vfIZbrQy0NJGA12+N0YYzOSGh3JcfX6ei2rrbK09psE8NBVGkZUQfbNgcYwAxo+LGMBW2iZmbRHTcOvhvXHjrgvaJvWlt9fGY1HrwaOh4Irrr6sluDGyvZ384a/kb+8AHHyDjj0wPRS3a7QUsdLQVscTGVBmMTnNABc3aTz64I/mVivelLrQ6jkuulZonvfIZO5bK0PY4/EMO4LTz/njyUTrWk1CaCmuOpZ4xI6XuYaWPGGAtJcTjjPujzKTuuO1Zh5xzTNxmLPTJGta5d9e7u01b3QwXO+9mdFVND4JabL2Ho4N2OwfkduD9V2O5UVPcbfU0VWxr6eoidHI1w4LSMFclvlg1Dczoas09T/AG1FQGUTSHEbHAMc1rvk7GPxUncda6su9vltNr0XdKO6zNMT55wRDBngua8gA/I8Dz56HbT+2Hy3Ff57/Ofqrej7tYI+yqjdrGmfWQUtzf4KmbkmZ+3dw3IBA7x+d3u+XorZXa11Lc7dO226DrmwyQvDprhM2EMbg5JaRyMeWeVD3/Qdy0/YNKVFmpv0nUWCd09TTx9ZnOeyRxaOpALNo4Jxg4OFM1OqNTarpZLXYdLXC1uqGGOevurO6ZA08EtHV5xnGOhxkYXpQrmmtOVeqOw+G3W6RniG1ckkYlOA/bK7Lc+WQT+KmR2j3a005g1roytp4gzbLUUzA+Fw6HIPugfLeVCWC06sOhTZLZR3S1Xa0VZqWuc4xR1Yc5xMbXZAfjIPXacDnlWN/aFf305pPYC8uuTm7S10TvDl3T48fD/zPmggu0atsDtBafrNNtjZa2Xhsgjibs2EMkc4bT8JznhYrPcPbDtGpPbalmpojB4iz26UYiIPILgfiJDSfmW46AA47loy62Ts/sNC+llqK119ZV1MVNGZBCCxzce75ABuT0yeqvHarpea+2aO4WsOF5tbu/pXRj33AEEtHz4BHzaPUolWNVVrn9slOZ7bVXRlsoBJTUdM0OJkPO/BIGBuHPq1qk9T6gumoLBXWqbQd6AqYXMY5wYQx+Pdd18jg/go2eLUVxms+vLPaZheKWLwtzttRE6F0wGcuYHAZBDiRjP3epaQt256w1XqOgfa9PaSu1tq6hvdyVlYHQtpweC5riBz156jqATwiEBqllxg7M9GU93glp6uC6xxOjl+INaJWsz/AOoau3rmHaLpu7R6EslPSmrvNZa6uKeoeS6SWbDXBzh1cfecOOcD6K96au8l7tMddNbay3Pe4g09ZGWSDB64PkfJBKIiICIiCEqNN08srnxSviDjnaACB9Fi9mI/2p/5QrAiyTwHDTO+VHLCv+y8X7U/8gT2Xi/an/lCsCKP6fw3+v1RywwUVJFRQCGAENHJJ6k+pWdEWutYrGo7noREUiiX7QtU69PvWm65lJWPeXubJkDcfiIcAevOQQepWv7E329VkUuq7vHNBF0jg6kHqB7rQ3PrgldDRUzgpMulXtXia1iNxuI1E6jcR83mKNkUbI4mhrGNDWtHQAdAvSIrnNEREBERARCcdUQEREBERAREQEREBERBX9d1/gNN1AbM2GSpLaZkjnYDS84Jz8m7j+C1NA1sD4bhbKerbVRUNSe5lD9+6J/vN588HcPwU3cLVFX11vqppH4opHSNiGNr3EYBP05wvkdoiivsl2jke2SSnED4hjY7ByHeuR0V8Xp+Fye/v8/4+qiaW/E5nL+0i0OsdZHVQ19VIa6SaVzXPwGcg4GP3v5Le1RD7LaVZbqWuqJ57nM2Ql7veaxoBIGPntH4lXPVelKXU/hvFVE8Phw/b3W3ndjrkH0Xi5aRpLleKK41NTUE0YYI4fd2Hac88eZ6rVXiq8tIvPdvf2ZrcNbmvNY79a+6maPiqH1N40hdKiWGSYbmva7Ja5pGcE+rcH6BRVDYnVOtJrA641bYmOeBMH+97rc9Oi6VWaTpanUsN+ZUzw1UZaS1m3a/AxzkZ5bx9F8ptI0lNqaS/MqZzUSOcTGduwbhj0yp/NVjcxPfH6n5W06ifdP6Oe6xdU3O9vttvlfLDZ6La524+93bcvdx55wPqF0Hs/upu2mKZ8jt09P9hKScnLehP1btP4r1p/SNDZKmsqWT1FTLVjbI6oLTwSSegHUnn6L1pfS1Lpo1Aoqqpljn25ZMWkAjOCMAev8ARV5s2O+Pkj3a18fF7w4clMnPPv3v7K5cYoqrWd6ZVWy4XJsccBYyknMfdZZzn329ePXopitvd1hrrlQ2qipXst1PHNmeVwJaWk7eM5PHBzjjlbdVpt8l2qrlSXaso5aprGyNhEZBDRgfE0rYgsUcVTXVD6maSWtp44JS7H3WkbunU5JXi2SkxG+uojx+H/Vlcd43rp1nw+KCdfLtX3qwPtxgjpa6kdMYJXH0G7cQPLPHr5ry7W7zWb4xRmkFX4fuNzvEFu7aZB5Yzzt9PNS40vDGy0eGramCW1sMccjdpMjCACHAjHOFkp9P+DrHS0NzraemfOZ30jdhjLickDLSQCeoB8/JOfD4etyjly+PrSLOp7o6C+VcdHSiktck8W5z3bpHs6AD0x1OfPhbFJfrq242xlyo6WOkujT3Bhkc58Ttu4B+Rg5Hp5r1c7CaXTd/p6DvZ5rg+ao2HGd7wPdHy4WS0acEEtDV1lbWVL6SHbTwzlu2AluD0AJPlkk8JM4uWZ161+6YjLuI363+yClvlXeNMQXK52ykNHLUwCGPvX7i/vMFxxjAB6DPOOVNwahml1HUW6UUlNHA4ju5nOE0zA3O9gxgjPl6AlZY9L0zNPUtlFRMYaaRsjZDjcS1+8A8Y6rLLYfEXWGtra+oqI6eV0sFO5rA2NxGOobuI56EqLXxTuPd119iK5Y15b+6DtetZK2toS5tGaaum7psMbnGeHOdrn/dOccgdMjqrqoW2WA2uWNtJc6xtDG4llE7Y5jc593JbuwM8DKmlVmmkz7EdFmKLxHtiIiqWiIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIg//2Q==" alt="Bigbasket Logo">
+                    <p>A <b>TATA</b> Enterprise</p>
+                    <div class="app-links">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS16-bVN_rBd2hsSfKaioPuNsgM4IBMpU2f0WzAlT0r9Azk3_407SlaboY&s" alt="Google Play">
+                        <img src="data:image/png;base64,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" alt="App Store">
+                    </div>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                    </div>
+                </div>
+            </div>
+        
+            <hr>
+        
+            <div class="cities">
+                <h3>Cities We Serve</h3>
+                <p>Abohar | Abu Road | Achampet | Achrol | Adampur | Addateegala | Adilabad | Agali | AGARTALA | Agra |...</p>
+            </div>
+        </footer>
+        
+        <div class="footer-bottom">
+            <div class="cities-list">
+                <p>
+                    Thalavadi | Thamarassery | Thanesar | Thanjavur | Theni | Theog | Thiruthani | Thirumalagiri | 
+                    Thodupuzha | Thoubal | Thrissur | Thuraiyur | Tindivanam | Tirupur | Tirupati | Trichy | Tripura | 
+                    Udaipur | Ujjain | Una | Unnao | Varanasi | Vadodara | Vapi | Vizag | Warangal | West Bengal | 
+                    Bhangar|BHANJANAGAR|Bhanpura|Bharu
+                </p>
+            </div>
+        
+            <hr>
+        
+            <div class="footer-links">
+                <div class="popular-categories">
+                    <h3>Popular Categories</h3>
+                    <ul>
+                        <li>Sunflower Oils</li>
+                        <li>Wheat Atta</li>
+                        <li>Ghee</li>
+                        <li>Milk</li>
+                        <li>Health Drinks</li>
+                        <li>Flakes</li>
+                        <li>Organic F&V</li>
+                        <li>Namkeen</li>
+                        <li>Eggs</li>
+                        <li>Floor Cleaners</li>
+                        <li>Other Juices</li>
+                        <li>Leafy Vegetables</li>
+                        <li>Frozen Veg Food</li>
+                        <li>Diapers & Wipes</li>
+                    </ul>
+                </div>
+        
+                <div class="popular-brands">
+                    <h3>Popular Brands</h3>
+                    <ul>
+                        <li>Amul</li>
+                        <li>Red Bull</li>
+                        <li>Nescafe</li>
+                        <li>MTR</li>
+                        <li>Britannia</li>
+                        <li>Haldiram’s</li>
+                        <li>Yakult</li>
+                        <li>Ferrero</li>
+                        <li>elite cake</li>
+                        <li>Wow! Momo</li>
+                        <li>Lay’s</li>
+                        <li>Fortune</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <p class="copyright">
+                Copyright © 2024-2026 Supermarket Grocery Supplies Pvt Ltd
+            </p>
+        </div>
+    </main>
+    </body>
+</html>
